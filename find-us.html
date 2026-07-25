@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find Us — La Kasbah Salam Hostel, Fès Medina</title>
+<meta name="description" content="How to reach La Kasbah Salam inside the walled Kasbah An-Nouar in Fès: aim for the single gate Bab Chorfa, then follow our signs to 15 Derb Sidi Jridi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Caveat:wght@700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <span></span>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="rooms.html">Rooms</a>
+    <a class="nav-link" href="activities.html">Activities</a>
+    <a class="nav-link" href="moments.html">Moments Together</a>
+    <a class="nav-link" href="offers.html">Offers</a>
+    <a class="nav-link" href="volunteering.html">Volunteer</a>
+    <a class="nav-link active" href="find-us.html">Find us</a>
+    <a class="btn-book" href="https://beds24.com/booking2.php?propid=334299&referer=BookingPage" target="_blank" rel="noopener">Book →</a>
+  </div>
+</nav>
+
+<section style="padding:clamp(40px,7vh,72px) clamp(20px,6vw,72px) clamp(20px,3vh,32px); text-align:center;">
+  <span class="pill rise" style="background:var(--gold); color:#fff;">Fès medina · inside the old Kasbah</span>
+  <h1 class="rise" style="margin:16px 0 0; font-family:var(--display); font-weight:800; font-size:clamp(38px,7.5vw,86px); line-height:.92; letter-spacing:-1.5px; animation-delay:.1s;">One gate. <span style="font-family:var(--hand); font-weight:700; font-size:clamp(30px,5vw,58px); color:var(--terra); display:inline-block; transform:rotate(-4deg);">everyone passes through it</span></h1>
+  <p class="rise" style="margin:18px auto 0; max-width:46ch; font-size:clamp(1.05rem,1.9vw,1.3rem); line-height:1.45; font-weight:500; color:var(--muted); animation-delay:.25s;">We live inside the old Kasbah of Fès — a walled fortress with a single entrance. No matter your route, your taxi, or your GPS, you funnel through <strong style="color:var(--ink);">Bab Chorfa</strong>. Reach that gate and you're basically home.</p>
+</section>
+
+<!-- The gate -->
+<section style="padding:clamp(24px,4vh,40px) clamp(20px,6vw,72px) clamp(24px,4vh,44px);">
+  <div class="reveal" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); border:3px solid var(--ink); border-radius:28px; overflow:hidden; box-shadow:8px 8px 0 var(--ink); background:var(--ink);">
+    <div style="position:relative; min-height:clamp(320px,52vh,560px);">
+      <div class="ph" style="position:absolute; inset:0;">Photo of Bab Chorfa — the Kasbah gate, shot from Place Boujloud</div>
+      <div style="position:absolute; top:16px; left:16px; pointer-events:none;"><span style="background:var(--terra); color:#fff; font-family:var(--display); font-weight:800; font-size:12px; letter-spacing:.12em; text-transform:uppercase; padding:7px 13px; border-radius:999px; border:2.5px solid var(--ink); display:inline-block; transform:rotate(-2deg);">The only way in</span></div>
+      <div style="position:absolute; left:16px; bottom:16px; background:var(--paper); color:var(--ink); font-family:var(--display); font-weight:700; font-size:14px; padding:8px 14px; border-radius:12px; border:2.5px solid var(--ink); pointer-events:none;">🏛️ This is the gate you're aiming for</div>
+    </div>
+    <div class="hatch hatch--light" style="color:var(--paper); padding:clamp(28px,4vw,48px); display:flex; flex-direction:column; justify-content:center; gap:22px;">
+      <div>
+        <span style="font-family:var(--display); font-weight:700; font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--brand);">Aim for this point</span>
+        <h2 style="margin:8px 0 0; font-family:var(--display); font-weight:800; letter-spacing:-1.2px; line-height:.88; font-size:clamp(2.6rem,5.5vw,4.4rem); color:var(--paper);">Bab Chorfa<br><span style="font-family:var(--hand); font-weight:700; font-size:clamp(1.6rem,3vw,2.4rem); color:var(--brand);">the gate of the Kasbah</span></h2>
+        <p style="margin:16px 0 0; max-width:38ch; font-size:clamp(1.02rem,1.5vw,1.2rem); line-height:1.5; font-weight:500; color:#EDE3D0;">Our home sits inside <strong style="color:#fff;">Kasbah An-Nouar</strong>, the ancient walled fortress of Fès. It has one entrance, and this is it — right on Place Boujloud, beside the famous blue gate. <strong style="color:#fff;">Once you step through Bab Chorfa, our signs take over</strong> and arrow you the rest of the way.</p>
+        <div style="margin:18px 0 0; background:var(--paper); color:var(--ink); border:2.5px solid var(--ink); border-radius:16px; padding:16px 18px; max-width:38ch;">
+          <div style="font-family:var(--display); font-weight:800; font-size:clamp(1rem,1.5vw,1.18rem); letter-spacing:-.3px; line-height:1.2;">Vous voulez demander à un passant la Kasbah an-Nouar&nbsp;?</div>
+          <div dir="rtl" lang="ar" style="margin-top:10px; font-family:var(--display); font-weight:800; font-size:clamp(2rem,4vw,2.8rem); line-height:1.1; color:var(--terra);">قصبة النوار</div>
+        </div>
+      </div>
+      <div style="background:rgba(247,241,230,.08); border:2.5px solid rgba(247,241,230,.25); border-radius:18px; padding:16px 18px;">
+        <div style="font-size:12px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--brand);">GPS — Bab Chorfa</div>
+        <div style="font-family:var(--display); font-weight:700; font-size:clamp(1.15rem,2.1vw,1.6rem); letter-spacing:.5px; margin-top:2px; color:var(--paper);">34.06222, -4.98556</div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
+          <a class="btn" style="font-size:14px; padding:11px 18px; border-color:var(--paper); box-shadow:3px 3px 0 var(--paper); background:var(--gold); color:#fff;" href="https://www.google.com/maps/search/?api=1&query=34.06222,-4.98556" target="_blank" rel="noopener">Google Maps</a>
+          <a class="btn" style="font-size:14px; padding:11px 18px; border-color:var(--paper); box-shadow:3px 3px 0 var(--paper); background:var(--terra); color:#fff;" href="https://waze.com/ul?ll=34.06222,-4.98556&navigate=yes" target="_blank" rel="noopener">Waze</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Address + map -->
+<section style="padding:0 clamp(20px,6vw,72px) clamp(28px,5vh,52px);">
+  <div class="reveal" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:clamp(20px,3vw,32px); align-items:stretch;">
+    <div class="hatch hatch--light" style="background:var(--gold); color:var(--paper); border:3px solid var(--ink); border-radius:24px; box-shadow:7px 7px 0 var(--ink); padding:clamp(26px,3.5vw,40px); display:flex; flex-direction:column; gap:20px;">
+      <div>
+        <span style="font-family:var(--display); font-weight:700; font-size:13px; letter-spacing:.12em; text-transform:uppercase; opacity:.8;">Our address, inside the Kasbah</span>
+        <div style="margin:8px 0 0; font-family:var(--display); font-weight:800; letter-spacing:-.5px; line-height:1; font-size:clamp(1.9rem,3.4vw,2.8rem); color:var(--paper);">15 Derb Sidi Jridi</div>
+        <div style="margin:6px 0 0; font-size:clamp(1rem,1.5vw,1.15rem); font-weight:600; color:#EDE3D0;">Kasbah An-Nouar · Fès el-Bali · Morocco</div>
+      </div>
+      <div style="background:rgba(0,0,0,.14); border-radius:14px; padding:14px 16px;">
+        <div style="font-size:12px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--brand);">GPS — the hostel</div>
+        <div style="font-family:var(--display); font-weight:700; font-size:clamp(1.05rem,1.8vw,1.4rem); letter-spacing:.5px; margin-top:2px;">34.06233103, -4.98412325</div>
+      </div>
+      <div style="display:flex; align-items:flex-start; gap:10px; background:var(--paper); color:var(--ink); border:2.5px solid var(--ink); border-radius:14px; padding:12px 15px;">
+        <span style="font-size:1.1rem; line-height:1.2;">⚠️</span>
+        <span style="font-size:.92rem; font-weight:600; line-height:1.4;">Google Maps often routes to a street on the <strong>south side that doesn't exist</strong>. Ignore it — aim for Bab Chorfa and come in from the gate.</span>
+      </div>
+    </div>
+    <div style="position:relative; min-height:clamp(280px,36vh,380px); border:3px solid var(--ink); border-radius:24px; overflow:hidden; box-shadow:7px 7px 0 var(--gold); background:var(--paper-alt);">
+      <div id="map" style="position:absolute; inset:0; width:100%; height:100%;"></div>
+      <div style="position:absolute; top:12px; left:12px; z-index:500; background:var(--paper); color:var(--ink); font-family:var(--display); font-weight:700; font-size:13px; padding:6px 12px; border-radius:10px; border:2.5px solid var(--ink); pointer-events:none;">📍 Bab Chorfa</div>
+    </div>
+  </div>
+</section>
+
+<!-- Steps header -->
+<section style="padding:clamp(20px,4vh,40px) clamp(20px,6vw,72px) clamp(12px,2vh,24px);">
+  <div class="reveal" style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+    <span class="pill">Step by step</span>
+    <h2 style="margin:0; font-family:var(--display); font-weight:800; letter-spacing:-1px; font-size:clamp(2.4rem,6vw,4.6rem); color:var(--ink); line-height:.9;">From the gate, follow our signs</h2>
+  </div>
+  <p style="margin:16px 0 0; max-width:52ch; font-size:clamp(1rem,1.6vw,1.2rem); line-height:1.5; font-weight:500; color:var(--muted);">Once you're through Bab Chorfa, our green signs point the way — but here's every turn in photos too, shot at eye level. When your view matches the photo, you're on track.</p>
+</section>
+
+<!-- Steps -->
+<section style="padding:clamp(16px,3vh,28px) clamp(16px,4vw,48px) clamp(28px,5vh,56px); display:flex; flex-direction:column; gap:clamp(18px,3vh,32px);">
+  <article class="reveal" style="background:var(--terra); border:3px solid var(--ink); border-radius:26px; overflow:hidden; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); align-items:stretch; box-shadow:6px 6px 0 var(--ink);">
+    <div style="padding:clamp(28px,4vw,56px); display:flex; flex-direction:column; justify-content:center;">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;"><span style="display:inline-flex; align-items:center; justify-content:center; width:clamp(52px,7vw,72px); height:clamp(52px,7vw,72px); flex:none; border-radius:50%; background:var(--paper); color:var(--terra); font-family:var(--display); font-weight:800; font-size:clamp(1.6rem,3vw,2.4rem); line-height:1; border:3px solid var(--ink);">1</span><span style="font-family:var(--display); font-weight:700; font-size:clamp(.9rem,1.3vw,1.1rem); letter-spacing:.1em; text-transform:uppercase; color:var(--brand);">The gate</span></div>
+      <h3 style="margin:0; font-family:var(--display); font-weight:800; line-height:.98; letter-spacing:-.5px; font-size:clamp(1.7rem,3.2vw,2.6rem); color:var(--paper);">Step through Bab Chorfa</h3>
+      <p style="margin:14px 0 0; max-width:42ch; font-size:clamp(1.05rem,1.6vw,1.28rem); line-height:1.5; font-weight:500; color:#F7E9DE;">These are the only shops in the Kasbah. If you need sugar, cigarettes or a cheap water bottle, grab them here. Then go straight ahead until the next picture.</p>
+    </div>
+    <div style="position:relative; min-height:clamp(260px,38vh,400px);"><img src="assets/find-step-1.webp" alt="The little Kasbah shops just inside Bab Chorfa" loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;"></div>
+  </article>
+
+  <article class="reveal" style="background:var(--gold); border:3px solid var(--ink); border-radius:26px; overflow:hidden; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); align-items:stretch; box-shadow:6px 6px 0 var(--ink);">
+    <div style="order:1; padding:clamp(28px,4vw,56px); display:flex; flex-direction:column; justify-content:center;">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;"><span style="display:inline-flex; align-items:center; justify-content:center; width:clamp(52px,7vw,72px); height:clamp(52px,7vw,72px); flex:none; border-radius:50%; background:var(--paper); color:var(--gold); font-family:var(--display); font-weight:800; font-size:clamp(1.6rem,3vw,2.4rem); line-height:1; border:3px solid var(--ink);">2</span><span style="font-family:var(--display); font-weight:700; font-size:clamp(.9rem,1.3vw,1.1rem); letter-spacing:.1em; text-transform:uppercase; color:var(--brand);">First sign</span></div>
+      <h3 style="margin:0; font-family:var(--display); font-weight:800; line-height:.98; letter-spacing:-.5px; font-size:clamp(1.7rem,3.2vw,2.6rem); color:var(--paper);">Follow the first arrow right</h3>
+      <p style="margin:14px 0 0; max-width:42ch; font-size:clamp(1.05rem,1.6vw,1.28rem); line-height:1.5; font-weight:500; color:#EDE3D0;">You should see our little sign here, telling you to turn right — direction the mosque.</p>
+    </div>
+    <div style="order:0; position:relative; min-height:clamp(260px,38vh,400px);"><img src="assets/find-step-2.webp" alt="The first sign and the right turn toward the mosque" loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;"></div>
+  </article>
+
+  <article class="reveal" style="background:var(--ink); border:3px solid var(--ink); border-radius:26px; overflow:hidden; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); align-items:stretch; box-shadow:6px 6px 0 var(--ink);">
+    <div style="padding:clamp(28px,4vw,56px); display:flex; flex-direction:column; justify-content:center;">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;"><span style="display:inline-flex; align-items:center; justify-content:center; width:clamp(52px,7vw,72px); height:clamp(52px,7vw,72px); flex:none; border-radius:50%; background:var(--brand); color:var(--ink); font-family:var(--display); font-weight:800; font-size:clamp(1.6rem,3vw,2.4rem); line-height:1; border:3px solid var(--ink);">3</span><span style="font-family:var(--display); font-weight:700; font-size:clamp(.9rem,1.3vw,1.1rem); letter-spacing:.1em; text-transform:uppercase; color:var(--paper);">At the mosque</span></div>
+      <h3 style="margin:0; font-family:var(--display); font-weight:800; line-height:.98; letter-spacing:-.5px; font-size:clamp(1.7rem,3.2vw,2.6rem); color:var(--brand);">Continue, we're not far!</h3>
+      <p style="margin:14px 0 0; max-width:42ch; font-size:clamp(1.05rem,1.6vw,1.28rem); line-height:1.5; font-weight:500; color:#EDE3D0;">At the mosque you don't have any choice, so turn left.</p>
+    </div>
+    <div style="position:relative; min-height:clamp(260px,38vh,400px);"><img src="assets/find-step-3.webp" alt="The archway on the way — continue through" loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;"></div>
+  </article>
+
+  <article class="reveal" style="background:var(--brand); border:3px solid var(--ink); border-radius:26px; overflow:hidden; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); align-items:stretch; box-shadow:6px 6px 0 var(--ink);">
+    <div style="order:1; padding:clamp(28px,4vw,56px); display:flex; flex-direction:column; justify-content:center;">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;"><span style="display:inline-flex; align-items:center; justify-content:center; width:clamp(52px,7vw,72px); height:clamp(52px,7vw,72px); flex:none; border-radius:50%; background:var(--ink); color:var(--brand); font-family:var(--display); font-weight:800; font-size:clamp(1.6rem,3vw,2.4rem); line-height:1; border:3px solid var(--ink);">4</span><span style="font-family:var(--display); font-weight:700; font-size:clamp(.9rem,1.3vw,1.1rem); letter-spacing:.1em; text-transform:uppercase; color:var(--terra);">Sharp right</span></div>
+      <h3 style="margin:0; font-family:var(--display); font-weight:800; line-height:.98; letter-spacing:-.5px; font-size:clamp(1.7rem,3.2vw,2.6rem); color:var(--ink);">Right at the next sign</h3>
+      <p style="margin:14px 0 0; max-width:42ch; font-size:clamp(1.05rem,1.6vw,1.28rem); line-height:1.5; font-weight:500; color:#5a4a30;">Our second sign is hidden where you can't see it from this view. Say Salam to the old man often sitting here — he rarely answers. Now turn right.</p>
+    </div>
+    <div style="order:0; position:relative; min-height:clamp(260px,38vh,400px);"><img src="assets/find-step-4.webp" alt="The spot with the hidden second sign and the old man often sitting here" loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;"></div>
+  </article>
+
+  <article class="reveal" style="background:var(--gold); border:3px solid var(--ink); border-radius:26px; overflow:hidden; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); align-items:stretch; box-shadow:6px 6px 0 var(--ink);">
+    <div style="padding:clamp(28px,4vw,56px); display:flex; flex-direction:column; justify-content:center;">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;"><span style="display:inline-flex; align-items:center; justify-content:center; width:clamp(52px,7vw,72px); height:clamp(52px,7vw,72px); flex:none; border-radius:50%; background:var(--paper); color:var(--gold); font-family:var(--display); font-weight:800; font-size:clamp(1.6rem,3vw,2.4rem); line-height:1; border:3px solid var(--ink);">5</span><span style="font-family:var(--display); font-weight:700; font-size:clamp(.9rem,1.3vw,1.1rem); letter-spacing:.1em; text-transform:uppercase; color:var(--brand);">Turn right</span></div>
+      <h3 style="margin:0; font-family:var(--display); font-weight:800; line-height:.98; letter-spacing:-.5px; font-size:clamp(1.7rem,3.2vw,2.6rem); color:var(--paper);">Spot the Moroccan flag</h3>
+      <p style="margin:14px 0 0; max-width:42ch; font-size:clamp(1.05rem,1.6vw,1.28rem); line-height:1.5; font-weight:500; color:#EDE3D0;">Follow the streets until you see this Moroccan flag and another of our signs — you can't spot it directly on arrival, but it tells you to turn right.</p>
+    </div>
+    <div style="order:1; position:relative; min-height:clamp(260px,38vh,400px);"><div class="ph" style="position:absolute; inset:0;">Photo: the Moroccan flag and the sign pointing right</div></div>
+  </article>
+
+  <article class="reveal" style="background:var(--terra); border:3px solid var(--ink); border-radius:26px; overflow:hidden; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); align-items:stretch; box-shadow:6px 6px 0 var(--ink);">
+    <div style="padding:clamp(28px,4vw,56px); display:flex; flex-direction:column; justify-content:center;">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;"><span style="display:inline-flex; align-items:center; justify-content:center; width:clamp(52px,7vw,72px); height:clamp(52px,7vw,72px); flex:none; border-radius:50%; background:var(--paper); color:var(--terra); font-family:var(--display); font-weight:800; font-size:clamp(1.6rem,3vw,2.4rem); line-height:1; border:3px solid var(--ink);">6</span><span style="font-family:var(--display); font-weight:700; font-size:clamp(.9rem,1.3vw,1.1rem); letter-spacing:.1em; text-transform:uppercase; color:var(--brand);">You made it</span></div>
+      <h3 style="margin:0; font-family:var(--display); font-weight:800; line-height:.98; letter-spacing:-.5px; font-size:clamp(1.7rem,3.2vw,2.6rem); color:var(--paper);">Derb Sidi Jridi — our door</h3>
+    </div>
+    <div style="position:relative; min-height:clamp(260px,38vh,400px);"><div class="ph" style="position:absolute; inset:0;">Photo: the hostel's blue door at 15 Derb Sidi Jridi</div></div>
+  </article>
+</section>
+
+<!-- Lost CTA -->
+<section style="padding:0 clamp(20px,6vw,72px) clamp(48px,8vh,96px);">
+  <div class="reveal hatch hatch--light" style="background:var(--terra); color:var(--paper); border:3px solid var(--ink); border-radius:28px; padding:clamp(36px,6vw,72px); text-align:center;">
+    <div style="font-size:clamp(2.6rem,6vw,4rem); line-height:1; display:inline-block;">🧭</div>
+    <h2 style="margin:14px 0 0; font-family:var(--display); font-weight:800; letter-spacing:-1px; line-height:.92; font-size:clamp(2.4rem,6.5vw,5rem); color:var(--paper);">Lost? Don't panic.</h2>
+    <p style="margin:16px auto 0; max-width:38ch; font-size:clamp(1.1rem,2vw,1.4rem); line-height:1.45; font-weight:500; color:#F7E9DE;">Send us your location on WhatsApp and someone will come walk you the rest of the way. It happens all the time — really.</p>
+    <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:clamp(26px,4vh,40px);">
+      <a class="btn" style="display:inline-flex; align-items:center; gap:10px; background:#25D366; color:#0b3d1e;" href="https://wa.me/212635929822?text=Salam!%20I%27m%20trying%20to%20find%20La%20Kasbah%20Salam%20and%20I%20think%20I%27m%20a%20bit%20lost" target="_blank" rel="noopener"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.97L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.004c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.16c-.24.68-1.42 1.32-1.95 1.36-.5.04-.96.22-3.23-.67-2.72-1.07-4.45-3.85-4.58-4.03-.14-.18-1.1-1.46-1.1-2.78 0-1.32.69-1.97.94-2.24.24-.27.53-.34.7-.34l.5.01c.16.01.38-.06.59.45.24.58.82 2 .89 2.15.07.14.12.31.02.5-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.14-.28.29-.12.56.16.27.72 1.18 1.54 1.91 1.06.94 1.95 1.24 2.22 1.38.27.14.43.12.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.61-.13.25.09 1.58.75 1.85.88.27.14.45.2.51.31.07.11.07.64-.17 1.32Z"/></svg>WhatsApp us now</a>
+      <a class="btn btn--paper" href="tel:+212635929822">📞 Call us</a>
+    </div>
+    <p style="margin:18px 0 0; font-family:var(--display); font-weight:700; font-size:clamp(1rem,1.6vw,1.2rem); color:var(--paper); opacity:.9;">+212 635 929 822</p>
+  </div>
+</section>
+
+<section class="seemore sec" style="padding-top:0;">
+  <h2 class="reveal" style="margin:0 0 clamp(24px,3vh,36px); font-family:var(--display); font-weight:800; letter-spacing:-1px; font-size:clamp(2.4rem,5vw,3.6rem);">See more?</h2>
+  <div class="card-grid">
+    <a class="tile reveal" href="rooms.html"><img src="assets/room-dorm-mixed.webp" alt="Dorms & Rooms"><span class="tile__scrim"></span><span class="tile__cap"><span class="tile__title">Dorms &amp; Rooms</span><span class="tile__arrow">→</span></span></a>
+    <a class="tile reveal" href="moments.html"><img src="assets/breakfast-hero.webp" alt="The 3 moments to gather"><span class="tile__scrim"></span><span class="tile__cap"><span class="tile__title">The 3 moments to gather</span><span class="tile__arrow">→</span></span></a>
+  </div>
+</section>
+
+<footer class="footer">
+  <a class="footer__brand" href="index.html">La Kasbah Salam</a>
+  <span class="footer__meta">Youth Hostel · Fès, Morocco · @Lakasbahsalam</span>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  (function () {
+    var gate = [34.06222, -4.98556];
+    var hostel = [34.06233103, -4.98412325];
+    function pin(c) {
+      return L.divIcon({ className: '', iconSize: [30, 42], iconAnchor: [15, 42],
+        html: '<svg width="30" height="42" viewBox="0 0 30 42" xmlns="http://www.w3.org/2000/svg"><path d="M15 0C6.7 0 0 6.7 0 15c0 10.5 15 27 15 27s15-16.5 15-27C30 6.7 23.3 0 15 0z" fill="' + c + '" stroke="#fff" stroke-width="2.5"/><circle cx="15" cy="15" r="5" fill="#fff"/></svg>' });
+    }
+    function init() {
+      if (!window.L) { setTimeout(init, 120); return; }
+      var map = L.map('map', { scrollWheelZoom: false });
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(map);
+      L.marker(gate, { icon: pin('#2A211B') }).addTo(map).bindTooltip('Bab Chorfa', { permanent: true, direction: 'top', offset: [0, -40] });
+      L.marker(hostel, { icon: pin('#2F5FB0') }).addTo(map).bindTooltip('15 Derb Sidi Jridi', { permanent: true, direction: 'bottom', offset: [0, 6] });
+      L.polyline([gate, hostel], { color: '#C1440E', weight: 5, opacity: .9, lineJoin: 'round', lineCap: 'round', dashArray: '2 10' }).addTo(map);
+      map.fitBounds([gate, hostel], { padding: [55, 55], maxZoom: 18 });
+      setTimeout(function () { map.invalidateSize(); }, 300);
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+  })();
+</script>
+
+</body>
+</html>
