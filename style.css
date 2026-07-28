@@ -108,16 +108,25 @@ img{max-width:100%;}
 .room-head h2{margin:0; font-family:var(--display); font-weight:800; letter-spacing:-1px; font-size:clamp(2.4rem,5.5vw,4.4rem); color:var(--ink); line-height:.9;}
 .room-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:clamp(28px,3.5vw,44px);}
 .room-card{display:flex; flex-direction:column;}
-.room-figure{position:relative; border:3px solid var(--ink); border-radius:18px; overflow:hidden; box-shadow:6px 6px 0 var(--gold); aspect-ratio:4/3; background:var(--paper);}
+.room-figure{position:relative; order:0; margin-top:14px; border:3px solid var(--ink); border-radius:18px; overflow:hidden; box-shadow:6px 6px 0 var(--gold); aspect-ratio:4/3; background:var(--paper);}
 .room-figure img{width:100%; height:100%; object-fit:cover; display:block;}
-.room-badge{position:absolute; top:12px; left:12px; font-family:var(--display); font-weight:800; font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; background:var(--paper); color:var(--ink); padding:6px 12px; border-radius:999px; border:2.5px solid var(--ink);}
-.room-title{margin:22px 0 0; font-family:var(--display); font-weight:800; line-height:.94; letter-spacing:-.5px; font-size:clamp(1.8rem,3.2vw,2.6rem); color:var(--gold);}
-.room-tag{margin:8px 0 0; font-family:var(--display); font-weight:700; line-height:.95; letter-spacing:-.3px; font-size:clamp(1.2rem,2.2vw,1.6rem); color:var(--terra);}
+.room-badge{position:absolute; top:12px; left:12px; display:flex; align-items:baseline; gap:6px; font-family:var(--display); background:var(--gold); color:#fff; padding:9px 15px; border-radius:14px; border:2.5px solid var(--ink); box-shadow:3px 3px 0 var(--ink); transform:rotate(-2.5deg);}
+.room-badge b{font-weight:800; font-size:1.7rem; line-height:.9; letter-spacing:-1px;}
+.room-badge small{font-weight:700; font-size:.7rem; text-transform:uppercase; letter-spacing:.05em; opacity:.92;}
+.room-badge small.from{align-self:center; font-size:.72rem;}
+.room-title{order:-2; margin:0; font-family:var(--display); font-weight:800; line-height:.94; letter-spacing:-.5px; font-size:clamp(1.8rem,3.2vw,2.6rem); color:var(--gold);}
+.room-tag{order:-1; margin:6px 0 0; font-family:var(--display); font-weight:700; line-height:.95; letter-spacing:-.3px; font-size:clamp(1.2rem,2.2vw,1.6rem); color:var(--terra);}
 .room-price{margin:12px 0 0; font-family:var(--display); font-weight:800; font-size:clamp(1rem,1.8vw,1.25rem); letter-spacing:-.2px; color:var(--ink);}
 .room-price small{font-weight:700; font-size:.72em; color:var(--muted);}
 .room-detail{margin:14px 0 0; max-width:34ch; font-size:1rem; line-height:1.5; font-weight:500; color:var(--muted);}
 .feature-row{display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-top:auto; padding-top:18px;}
 .feature{font-family:var(--display); font-weight:800; font-size:.82rem; letter-spacing:.02em; background:var(--gold); color:#fff; padding:6px 12px; border-radius:999px; border:2.5px solid var(--ink);}
+.room-book{position:absolute; right:14px; bottom:14px; z-index:2; display:inline-flex; align-items:center; gap:8px;
+  font-family:var(--display); font-weight:800; font-size:1.05rem; letter-spacing:-.2px;
+  background:var(--gold); color:#fff; padding:11px 20px; border-radius:12px;
+  border:2.5px solid var(--ink); box-shadow:3px 3px 0 var(--ink);
+  transition:transform .16s ease, box-shadow .16s ease, background .16s ease;}
+.room-book:hover{transform:translate(-2px,-2px); box-shadow:5px 5px 0 var(--ink); background:var(--terra);}
 
 /* ---- cta with drop shadow (inner pages) ---- */
 .cta--shadow{box-shadow:8px 8px 0 var(--ink);}
