@@ -204,7 +204,6 @@
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(map);
       L.marker(gate, { icon: pin('#2A211B') }).addTo(map).bindTooltip('Bab Chorfa', { permanent: true, direction: 'top', offset: [0, -40] });
       L.marker(hostel, { icon: pin('#2F5FB0') }).addTo(map).bindTooltip('15 Derb Sidi Jridi', { permanent: true, direction: 'bottom', offset: [0, 6] });
-      L.polyline([gate, hostel], { color: '#C1440E', weight: 5, opacity: .9, lineJoin: 'round', lineCap: 'round', dashArray: '2 10' }).addTo(map);
       map.fitBounds([gate, hostel], { padding: [55, 55], maxZoom: 18 });
       setTimeout(function () { map.invalidateSize(); }, 300);
     }
